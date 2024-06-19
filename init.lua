@@ -204,6 +204,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- Configure R_path for R
+vim.g.R_path = 'C:\\Program Files\\R\\R-4.4.1\\bin\\x64'
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
